@@ -1,0 +1,17 @@
+version: '3'
+services:
+  front:
+    build: episen-sca-kto-frontend/.
+    ports:
+      - "80:80"
+    links:
+      - "back:orders-back"
+  back:
+    build: episen-sca-kto-backend/.
+    hostname: orders-back
+    ports:
+      - "8080:8080"
+    volumes:
+      - back-data:/tmp/data
+volumes:
+  back-data:
