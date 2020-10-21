@@ -3,12 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="f92d2be4-78d3-4fa0-8888-a5e6ec13e528" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/episen-sca-kto-backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-backend/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/episen-sca-kto-backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-backend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/src/main/java/com/kadiax/episenscaktofrontend/EpisenScaKtoFrontendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/src/main/java/com/kadiax/episenscaktofrontend/EpisenScaKtoFrontendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/src/main/java/com/kadiax/episenscaktofrontend/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/src/main/java/com/kadiax/episenscaktofrontend/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/src/main/java/com/kadiax/episenscaktofrontend/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/src/main/java/com/kadiax/episenscaktofrontend/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/src/main/java/com/kadiax/episenscaktofrontend/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/src/main/java/com/kadiax/episenscaktofrontend/services/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/src/test/java/com/kadiax/episenscaktofrontend/EpisenScaKtoFrontendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/src/test/java/com/kadiax/episenscaktofrontend/EpisenScaKtoFrontendApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +66,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603234758821</updated>
       <workItem from="1603234765125" duration="3594000" />
-      <workItem from="1603266451614" duration="6387000" />
+      <workItem from="1603266451614" duration="7625000" />
+      <workItem from="1603281760909" duration="236000" />
+      <workItem from="1603289652853" duration="2576000" />
     </task>
     <servers />
   </component>
