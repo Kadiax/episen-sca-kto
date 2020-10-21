@@ -2,12 +2,14 @@ version: '3'
 services:
   front:
     build: episen-sca-kto-frontend/.
+    container_name: "ordersfront"
     ports:
       - "80:80"
     links:
       - "back:orders-back"
   back:
     build: episen-sca-kto-backend/.
+    container_name: "ordersback"
     hostname: orders-back
     ports:
       - "8080:8080"

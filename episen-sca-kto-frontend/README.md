@@ -1,10 +1,16 @@
 # episen-sca-kto-frontend
-# episen-sca-kto-frontend
 
 ###BUILD
-docker build -t ordersfront:1.0 .
+docker build -t episen-sca-kto-frontend:1.0 .
 
 ###RUN
-docker run --publish 80:80 --detach --name orders-front ordersfront:1.0
+docker run --publish 80:80 --detach --name orders-front episen-sca-kto-frontend:1.0
 
-docker run --link orders -p 81:80 --detach --name orders-front ordersfront:1.0
+docker run --link episen-sca-kto-backend -p 80:80 --detach --name orders-front episen-sca-kto-frontend:1.0
+
+###push image
+docker tag episen-sca-kto-frontend:1.0 kadiax/episen-sca-kto-frontend:1.0
+
+docker push kadiax/episen-sca-kto-frontend:1.0
+
+

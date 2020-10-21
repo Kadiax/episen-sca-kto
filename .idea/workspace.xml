@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f92d2be4-78d3-4fa0-8888-a5e6ec13e528" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-backend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-frontend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/episen-sca-kto-frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-frontend/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +25,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UPEC\ING3\SEMESTRE1\Scalabilite_Virtualisation_Conteneurisation\projects\episen-sca-kto" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603234758821</updated>
       <workItem from="1603234765125" duration="3594000" />
-      <workItem from="1603266451614" duration="1225000" />
+      <workItem from="1603266451614" duration="6387000" />
     </task>
     <servers />
   </component>
