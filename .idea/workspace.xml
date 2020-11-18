@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f92d2be4-78d3-4fa0-8888-a5e6ec13e528" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/episen-sca-kto-front/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/episen-sca-kto-front/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
       <workItem from="1603289652853" duration="4312000" />
       <workItem from="1603370332810" duration="559000" />
       <workItem from="1605443394012" duration="1239000" />
-      <workItem from="1605688255288" duration="1976000" />
+      <workItem from="1605688255288" duration="3098000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 version: '3'
 services:
   front:
-    image: kadiax/episen-sca-kto-front:1.0
+    image: episen-sca-kto-front/ .
     container_name: "ordersfront"
     ports:
       - "80:80"
