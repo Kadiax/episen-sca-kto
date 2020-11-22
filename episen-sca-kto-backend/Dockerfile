@@ -5,8 +5,8 @@ RUN mvn -f /usr/src/app/pom.xml clean install
 
 FROM openjdk:13-jdk-alpine
 RUN addgroup -S spring && adduser -S spring -G spring
-RUN usermod -u spring /var/lib/
-RUN usermod -G spring /var/lib/
+RUN chown -R spring:spring /var/lib
+RUN chmod -R 700 /var/lib
 USER spring:spring
 COPY --from=maven-jar-build /usr/src/app/target/episen-sca-kto-backend-0.0.2-RELEASE.jar /usr/app/app.jar
 EXPOSE 8080
