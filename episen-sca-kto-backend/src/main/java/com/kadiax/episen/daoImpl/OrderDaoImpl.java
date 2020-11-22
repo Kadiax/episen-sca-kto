@@ -18,7 +18,7 @@ public class  OrderDaoImpl extends OrderDao {
     static {
         FileWriter fw = null;
         try {
-            fw = new FileWriter(new File("./tmp/data/orders.txt"), StandardCharsets.UTF_8);
+            fw = new FileWriter(new File("orders.txt"), StandardCharsets.UTF_8);
             writer = new BufferedWriter(fw);
         } catch (IOException e) {
             e.printStackTrace();
