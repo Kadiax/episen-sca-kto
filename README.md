@@ -1,20 +1,15 @@
 # episen-sca-kto
 
-###Build
-cd episen-sca-kto-frontend
-
-mvn clean install
-
-cd ..
-
-cd episen-sca-kto-backend
-
-mvn clean install
-
-cd ..
-###Run
-docker-compose build
-
+###RUN
 docker-compose up
 
+
+###VOIR le volume
+docker volume ls
+
+docker volume inspect episenscakto_back-data
+
+ls /var/lib/docker/volumes/episenscakto_back-data/_data
+
+cat /var/lib/docker/volumes/episenscakto_back-data/_data/orders.txt
 
