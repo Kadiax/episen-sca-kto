@@ -8,7 +8,7 @@ services:
     links:
       - "back:orders-back"
   back:
-    image: ./episen-sca-kto-backend/.
+    build: ./episen-sca-kto-backend/.
     container_name: "ordersback"
     hostname: orders-back
     ports:
