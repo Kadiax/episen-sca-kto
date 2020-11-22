@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.kadiax</groupId>
     <artifactId>episen-sca-kto-frontend</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-RELEASE</version>
     <name>episen-sca-kto-frontend</name>
     <description>Demo project for Spring Boot</description>
 
