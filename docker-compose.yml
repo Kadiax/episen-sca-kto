@@ -9,6 +9,14 @@ services:
       test: ["CMD", "curl", "-f", "http://localhost:80"]
     links:
       - "back:orders-back"
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 200M
+        reservations:
+          cpus: "0.5"
+          memory: 100M
   back:
     build: ./episen-sca-kto-backend/.
     container_name: "ordersback"
@@ -19,5 +27,13 @@ services:
       test: ["CMD", "curl", "-f", "http://localhost:8080"]
     volumes:
       - back-data:/logs
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 300M
+        reservations:
+          cpus: "0.5"
+          memory: 200M
 volumes:
   back-data:
