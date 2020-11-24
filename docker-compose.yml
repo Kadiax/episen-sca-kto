@@ -13,8 +13,6 @@ services:
     deploy:
       mode: replicated
       replicas: 2
-      placement:
-        max_replicas_per_node: 1
       resources:
         limits:
           cpus: "1"
@@ -36,8 +34,6 @@ services:
     deploy:
       mode: replicated
       replicas: 2
-      placement:
-        max_replicas_per_node: 1
       resources:
         limits:
           cpus: "1"
