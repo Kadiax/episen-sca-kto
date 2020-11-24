@@ -19,6 +19,9 @@ services:
         reservations:
           cpus: "0.5"
           memory: 100M
+      replicas: 2
+      restart_policy:
+        condition: on-failure
   episen-sca-kto-backend:
     build: ./episen-sca-kto-backend/.
     container_name: "ordersback"
@@ -37,6 +40,9 @@ services:
         reservations:
           cpus: "0.5"
           memory: 200M
+      replicas: 2
+        restart_policy:
+          condition: on-failure
 volumes:
   vol-episen-sca-kto-backend:
   vol-episen-sca-kto-front:
