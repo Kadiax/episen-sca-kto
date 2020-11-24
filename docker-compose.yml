@@ -2,7 +2,6 @@ version: '3'
 services:
   episen-sca-kto-front:
     build: ./episen-sca-kto-front/.
-    container_name: "ordersfront"
     ports:
       - "80:80"
     healthcheck:
@@ -24,7 +23,6 @@ services:
         condition: on-failure
   episen-sca-kto-backend:
     build: ./episen-sca-kto-backend/.
-    container_name: "ordersback"
     hostname: orders-back
     ports:
       - "8080:8080"
