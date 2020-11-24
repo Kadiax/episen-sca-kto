@@ -11,6 +11,8 @@ services:
     volumes:
       - vol-episen-sca-kto-front:/logsFront
     deploy:
+      mode: replicated
+      replicas: 2
       resources:
         limits:
           cpus: "1"
@@ -18,7 +20,6 @@ services:
         reservations:
           cpus: "0.5"
           memory: 100M
-      replicas: 2
       restart_policy:
         condition: on-failure
   episen-sca-kto-backend:
@@ -31,6 +32,8 @@ services:
     volumes:
       - vol-episen-sca-kto-backend:/logs
     deploy:
+      mode: replicated
+      replicas: 2
       resources:
         limits:
           cpus: "1"
@@ -38,7 +41,6 @@ services:
         reservations:
           cpus: "0.5"
           memory: 200M
-      replicas: 2
       restart_policy:
         condition: on-failure
 volumes:
