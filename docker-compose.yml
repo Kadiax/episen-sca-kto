@@ -1,6 +1,6 @@
 version: '3'
 services:
-  front:
+  episen-sca-kto-front:
     build: ./episen-sca-kto-front/.
     container_name: "ordersfront"
     ports:
@@ -9,6 +9,8 @@ services:
       test: ["CMD", "curl", "-f", "http://localhost:80"]
     links:
       - "back:orders-back"
+    volumes:
+      - vol-episen-sca-kto-front:/logsFront
     deploy:
       resources:
         limits:
@@ -17,7 +19,7 @@ services:
         reservations:
           cpus: "0.5"
           memory: 100M
-  back:
+  episen-sca-kto-backend:
     build: ./episen-sca-kto-backend/.
     container_name: "ordersback"
     hostname: orders-back
@@ -26,7 +28,7 @@ services:
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080"]
     volumes:
-      - back-data:/logs
+      - vol-episen-sca-kto-backend:/logs
     deploy:
       resources:
         limits:
@@ -36,4 +38,5 @@ services:
           cpus: "0.5"
           memory: 200M
 volumes:
-  back-data:
+  vol-episen-sca-kto-backend:
+  vol-episen-sca-kto-front:
