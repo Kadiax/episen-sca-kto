@@ -1,4 +1,4 @@
-version: '3'
+version: '3.4'
 services:
   episen-sca-kto-front:
     build: ./episen-sca-kto-front/.
@@ -25,7 +25,7 @@ services:
     build: ./episen-sca-kto-backend/.
     hostname: orders-back
     ports:
-      - "8080-9000:8080"
+      - "8080:8080"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080"]
     volumes:
