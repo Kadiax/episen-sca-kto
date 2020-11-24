@@ -19,7 +19,7 @@ public class OrderController {
     //ajouter un produit
     @PostMapping(value = "/add/order")
     public Order add_order(@RequestBody  Order order) {
-        return  orderDao.save(order);
+        return  orderDao.saveWithLogger(order);
     }
 
 }

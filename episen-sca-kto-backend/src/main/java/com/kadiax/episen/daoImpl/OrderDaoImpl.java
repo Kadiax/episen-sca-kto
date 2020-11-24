@@ -2,6 +2,7 @@ package com.kadiax.episen.daoImpl;
 
 import com.kadiax.episen.dao.OrderDao;
 import com.kadiax.episen.model.Order;
+import org.apache.log4j.Logger;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -14,32 +15,20 @@ import java.util.Map;
 
 @Repository
 public class  OrderDaoImpl extends OrderDao {
-    private static BufferedWriter writer;
-    static {
-        FileWriter fw = null;
-        try {
-            fw = new FileWriter(new File("./tmp/data/orders.txt"), StandardCharsets.UTF_8);
-            writer = new BufferedWriter(fw);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-    }
+    private static Logger logger = Logger.getLogger(OrderDaoImpl.class);
 
     @Override
-    public Order save(Order order) {
+    public Order saveWithLogger(Order order) {
+        Order o = null;
         try {
-                writer.write(order.getNom());
-                writer.newLine();
-                writer.flush();
-                //writer.close();
-
-                return order;
+            logger.info(order.getNom());
+            o = order;
+            return o;
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        return null;
+        return o;
     }
 
 }
