@@ -14,6 +14,6 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - back-data:/etc
+      - back-data:/tmp/data
 volumes:
   back-data:
