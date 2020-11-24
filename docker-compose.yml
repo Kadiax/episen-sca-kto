@@ -15,9 +15,6 @@ services:
       replicas: 2
       placement:
         max_replicas_per_node: 1
-      update_config:
-        parallelism: 0
-        delay: 10s
       resources:
         limits:
           cpus: "1"
@@ -41,9 +38,6 @@ services:
       replicas: 2
       placement:
         max_replicas_per_node: 1
-      update_config:
-        parallelism: 0
-        delay: 10s
       resources:
         limits:
           cpus: "1"
