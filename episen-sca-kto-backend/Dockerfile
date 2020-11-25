@@ -7,6 +7,7 @@ FROM openjdk:13-jdk-alpine
 RUN mkdir -m 775 -p logs
 RUN addgroup -S back && adduser -S back -G back
 RUN chown -R back:back /logs/
+RUN chmod +w /logs/
 USER back
 COPY --from=maven-jar-build /usr/src/app/target/episen-sca-kto-backend-0.0.2-RELEASE.jar /usr/app/app.jar
 EXPOSE 8080
