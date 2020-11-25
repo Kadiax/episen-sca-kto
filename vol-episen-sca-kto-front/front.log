@@ -46,3 +46,33 @@
 2020-11-25 20:36:47.198  INFO 1 --- [main] c.k.e.EpisenScaKtoFrontendApplication    : Started EpisenScaKtoFrontendApplication in 29.771 seconds (JVM running for 37.397)
 2020-11-25 20:44:02.808  INFO 1 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2020-11-25 20:44:02.816  INFO 1 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 21:42:40.067  INFO 1 --- [main] c.k.e.EpisenScaKtoFrontendApplication    : Starting EpisenScaKtoFrontendApplication v0.0.2-RELEASE on 3f3cdba2a184 with PID 1 (/usr/app/app.jar started by root in /)
+2020-11-25 21:42:40.109  INFO 1 --- [main] c.k.e.EpisenScaKtoFrontendApplication    : No active profile set, falling back to default profiles: default
+2020-11-25 21:42:40.617  INFO 1 --- [main] c.k.e.EpisenScaKtoFrontendApplication    : Starting EpisenScaKtoFrontendApplication v0.0.2-RELEASE on 157adae26d9c with PID 1 (/usr/app/app.jar started by root in /)
+2020-11-25 21:42:40.676  INFO 1 --- [main] c.k.e.EpisenScaKtoFrontendApplication    : No active profile set, falling back to default profiles: default
+2020-11-25 21:42:53.140  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-11-25 21:42:53.275  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 21:42:53.281  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 21:42:53.694  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-11-25 21:42:53.817  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 21:42:53.822  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 21:42:53.836  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-25 21:42:53.843  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12863 ms
+2020-11-25 21:42:54.453  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-25 21:42:54.463  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13063 ms
+2020-11-25 21:42:59.478  INFO 1 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 21:43:00.223  INFO 1 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-25 21:43:00.516  INFO 1 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 21:43:02.341  INFO 1 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-25 21:43:02.729  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-11-25 21:43:02.844  INFO 1 --- [main] c.k.e.EpisenScaKtoFrontendApplication    : Started EpisenScaKtoFrontendApplication in 29.296 seconds (JVM running for 35.215)
+2020-11-25 21:43:03.547  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-11-25 21:43:03.633  INFO 1 --- [main] c.k.e.EpisenScaKtoFrontendApplication    : Started EpisenScaKtoFrontendApplication in 29.996 seconds (JVM running for 36.029)
+2020-11-25 21:44:04.957  INFO 1 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 21:44:04.961  INFO 1 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 21:44:04.996  INFO 1 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2020-11-25 21:44:17.203  INFO 1 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 21:44:17.257  INFO 1 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 21:44:17.280  INFO 1 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2020-11-25 21:44:43.011  INFO 1 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 21:44:43.090  INFO 1 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
