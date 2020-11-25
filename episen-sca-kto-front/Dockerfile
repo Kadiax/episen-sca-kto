@@ -4,6 +4,8 @@ COPY pom.xml /usr/src/app
 RUN mvn -f /usr/src/app/pom.xml clean install
 
 FROM openjdk:13-jdk-alpine
+RUN addgroup -S front && adduser -S front -G front
+USER front
 COPY --from=maven-jar-build /usr/src/app/target/episen-sca-kto-frontend-0.0.2-RELEASE.jar /usr/app/app.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/usr/app/app.jar"]
