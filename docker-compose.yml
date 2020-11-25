@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.7'
 services:
   episen-sca-kto-front:
     build: ./episen-sca-kto-front/.
@@ -13,8 +13,6 @@ services:
     deploy:
       mode: replicated
       replicas: 2
-      placement:
-        max_replicas_per_node: 1
       resources:
         limits:
           cpus: "1"
@@ -36,8 +34,6 @@ services:
     deploy:
       mode: replicated
       replicas: 2
-      placement:
-        max_replicas_per_node: 1
       resources:
         limits:
           cpus: "1"
