@@ -3,7 +3,7 @@ services:
   episen-sca-kto-front:
     build: ./episen-sca-kto-front/.
     ports:
-      - 80:80
+      - "80:80"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:80"]
     links:
@@ -13,6 +13,8 @@ services:
     deploy:
       mode: replicated
       replicas: 2
+      placement:
+        max_replicas_per_node: 1
       resources:
         limits:
           cpus: "1"
@@ -26,7 +28,7 @@ services:
     build: ./episen-sca-kto-backend/.
     hostname: orders-back
     ports:
-      - 8080:8080
+      - "8080:8080"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080"]
     volumes:
@@ -34,6 +36,8 @@ services:
     deploy:
       mode: replicated
       replicas: 2
+      placement:
+        max_replicas_per_node: 1
       resources:
         limits:
           cpus: "1"
