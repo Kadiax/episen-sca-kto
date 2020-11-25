@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   episen-sca-kto-front:
-    build: ./episen-sca-kto-front/.
+    image: kadiax/episen-sca-kto-front:3.0
     ports:
       - "80-81:80"
     healthcheck:
@@ -23,7 +23,7 @@ services:
       restart_policy:
         condition: on-failure
   episen-sca-kto-backend:
-    build: ./episen-sca-kto-backend/.
+    image: kadiax/episen-sca-kto-back:3.0
     hostname: orders-back
     ports:
       - "8080-8081:8080"

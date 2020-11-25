@@ -18,4 +18,8 @@ docker tag episen-sca-kto_episen-sca-kto-front kadiax/episen-sca-kto-front:2.0
 
 docker push kadiax/episen-sca-kto-front:2.0
 
+docker tag episen-sca-kto_episen-sca-kto-front kadiax/episen-sca-kto-front:3.0
+
+docker push kadiax/episen-sca-kto-front:3.0
+
 
