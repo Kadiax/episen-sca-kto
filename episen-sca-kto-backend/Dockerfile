@@ -4,9 +4,9 @@ COPY pom.xml /usr/src/app
 RUN mvn -f /usr/src/app/pom.xml clean install
 
 FROM openjdk:13-jdk-alpine
-RUN mkdir -m 775 -p /usr/local/app/logs/
+RUN mkdir -m 775 -p logs
 RUN addgroup -S back && adduser -S back -G back
-RUN chown -R back:back /usr/local/app/logs/
+RUN chown -R back:back /logs/
 USER back
 COPY --from=maven-jar-build /usr/src/app/target/episen-sca-kto-backend-0.0.2-RELEASE.jar /usr/app/app.jar
 EXPOSE 8080
