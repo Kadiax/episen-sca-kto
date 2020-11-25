@@ -4,7 +4,7 @@ COPY pom.xml /usr/src/app
 RUN mvn -f /usr/src/app/pom.xml clean install
 
 FROM openjdk:13-jdk-alpine
-RUN mkdir -m 755 -p /usr/local/app/logs/
+RUN mkdir -m 775 -p /usr/local/app/logs/
 RUN addgroup -S back && adduser -S back -G back
 RUN chown -R back:back /usr/local/app/logs/
 USER back

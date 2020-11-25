@@ -30,7 +30,7 @@ services:
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080"]
     volumes:
-      - './vol-episen-sca-kto-backend:/usr/local/app/logs/'
+      - './usr/local/app/logs/:/logs'
     deploy:
       mode: replicated
       replicas: 2
