@@ -9,7 +9,7 @@ services:
     links:
       - "episen-sca-kto-backend:orders-back"
     volumes:
-      - vol-episen-sca-kto-front:/logsFront
+      - './vol-episen-sca-kto-front:/logsFront/'
     deploy:
       mode: replicated
       replicas: 2
@@ -30,7 +30,7 @@ services:
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080"]
     volumes:
-      - vol-episen-sca-kto-backend:/logs
+      - './vol-episen-sca-kto-backend:/usr/local/app/logs/'
     deploy:
       mode: replicated
       replicas: 2
@@ -43,6 +43,3 @@ services:
           memory: 200M
       restart_policy:
         condition: on-failure
-volumes:
-  vol-episen-sca-kto-backend:
-  vol-episen-sca-kto-front:
